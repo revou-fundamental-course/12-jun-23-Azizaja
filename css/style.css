@@ -1,0 +1,14 @@
+header{
+    background-color: coral;
+    color: seashell;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+#inputField{
+    outline: none;
+    font-size: 18px;
+    
+}
