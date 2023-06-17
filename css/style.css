@@ -1,3 +1,10 @@
+/* Mark Default */
+body{
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 header{
     background-color: coral;
     color: seashell;
@@ -7,8 +14,108 @@ header{
     border-radius: 8px;
     font-family: sans-serif;
 }
+label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: coral;
+    /* size: ; */
+    padding:10px 20px ;
+    color: seashell;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(233, 114, 34);
+    color: seashell;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+button:active{
+    background-color: rgb(233, 114, 34);
+    /* transform: scale(1.1); */
+    cursor: pointer;
+}
+
+footer{
+    background-color: coral;
+    color: seashell;
+    text-align: center;
+    padding: 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+/* Mark ID */
 #inputField{
     outline: none;
     font-size: 18px;
-    
+    border-radius: 8px;
+    border: 1px solid coral;
+    padding: 8px;
+}
+
+#inputField:focus{
+    border: 1px solid seashell;
+}
+
+/* Mark Class */
+.inputSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inputButton{
+    color: seashell;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.outputSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.output{
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid coral;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-self: center;
 }

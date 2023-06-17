@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konfersi Suhu</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <h1>Konfersi Suhu</h1>
-        <section class="inputSection">
-            <input type="number" id="">
-        </section>
     </header>
+    <section class="inputSection">
+        <label for="inputField">Celcius</label>
+        <input type="number" id="inputField" placeholder="masukan suhu dalam celcius">
+        <div class="inputButton">
+            <button type="submit" id="submit">Converstion</button>
+            <button type="reset" id="reset">Reset</button>
+            <button type="menu" id="reverse">Reverse</button>
+        </div>
+    </section>
+    <section class="outputSection">
+        <div class="output">
+            <h2>Reamur</h2>
+            <p>0</p>
+        </div>
+        <div class="output">
+            <h2>Fahrenheit</h2>
+            <p>0</p>
+        </div>
+        <div class="output">
+            <h2>Kelvin</h2>
+            <p>0</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 - Aziz Setiawan</p>
+    </footer>
+<script src="./js/script.js" ></script>
 </body>
 </html>
